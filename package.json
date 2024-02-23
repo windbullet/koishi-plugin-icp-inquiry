@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-icp-inquiry",
   "description": "查询域名的ICP备案信息",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,12 +9,17 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/windbullet/koishi-plugin-icp-inquiry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-icp-inquiry.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "^4.16.4"
+    "koishi": "^4.16.8"
   }
 }
